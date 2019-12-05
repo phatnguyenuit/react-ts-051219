@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Button from 'components/Button';
+import React from 'react';
+
+import logo from './logo.svg';
 
 const App: React.FC = () => {
   return (
@@ -14,13 +17,15 @@ const App: React.FC = () => {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Learn React
         </a>
       </header>
+      <main>
+        <Button status="OK">Hello</Button>
+      </main>
     </div>
   );
-}
+};
 
 export default App;
