@@ -15,5 +15,6 @@
       "autoFix": true
     }
   ],
-  "importSorter.generalConfiguration.sortOnBeforeSave": true
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

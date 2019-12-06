@@ -6,6 +6,10 @@ export interface ButtonProps
     HTMLButtonElement
   > {
   status: string;
+  test?: {
+    val?: string;
+    key: string;
+  };
 }
 
 export const ButtonComponent: FC<ButtonProps> = props => {

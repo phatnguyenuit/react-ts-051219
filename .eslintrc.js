@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'react-app',
   ],
+  plugins: ['react', 'prettier', '@typescript-eslint'],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
